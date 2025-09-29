@@ -1,3 +1,34 @@
+/* Service notes styling */
+.service-notes {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 1.2rem;
+  margin-bottom: 0.2rem;
+  letter-spacing: 0.01em;
+  display: block;
+}
+.book-now-btn {
+  display: block;
+  width: 100%;
+  margin-top: 1.2rem;
+  padding: 0.8rem 0;
+  background: var(--primary-color, #ff4081);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.10);
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: background 0.2s, transform 0.2s;
+}
+.book-now-btn:hover {
+  background: #e73370;
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 6px 18px 0 rgba(0,0,0,0.15);
+}
 .price-list-container {
   padding: 2rem;
   font-family: sans-serif;
@@ -10,8 +41,8 @@ h2 {
   color: #333;
 }
 
-.category-container {
-  margin-bottom: 2rem;
+ .category-container {
+  margin-bottom: 3.5rem;
 }
 
 h3 {
@@ -28,14 +59,37 @@ h3 {
   gap: 1.5rem;
 }
 
-.service-card {
+ .service-card {
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 1.5rem;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
   transition: transform 0.3s ease;
+.book-now-btn {
+  display: block;
+  width: 100%;
+  margin-top: auto;
+  padding: 0.8rem 0;
+  background: var(--primary-color, #ff4081);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.10);
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: background 0.2s, transform 0.2s;
+}
+.book-now-btn:hover {
+  background: #e73370;
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 6px 18px 0 rgba(0,0,0,0.15);
+}
 }
 
 .service-card:hover {

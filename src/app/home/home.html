@@ -12,9 +12,9 @@
           <h3>{{ category.category }}</h3>
           <p>{{ getCategoryDescription(category) }}</p>
           <a [routerLink]="['/price-list']" [fragment]="getCategoryFragment(category.category)" class="btn-secondary">View Details</a>
-          @if (category.category === 'Kids manicure with nail polish') {
-            <div class="important-note">
-              <strong>Please note:</strong> We don't do shellac or gel on kids under 16 years!!!
+          @if (hasNotes(category)) {
+            <div class="service-notes">
+              * {{ getFirstNote(category) }}
             </div>
           }
         </div>

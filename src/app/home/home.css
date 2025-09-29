@@ -38,13 +38,29 @@
   margin-top: 2rem;
 }
 
+
 .service-card {
   background-color: var(--surface-color);
   padding: 2rem;
   border-radius: 10px;
   border: 1px solid var(--primary-color);
   transition: border-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 340px;
 }
+.service-card h3,
+.service-card p,
+.service-notes {
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
 
 .service-card:hover {
   border-color: var(--secondary-color);
@@ -78,7 +94,8 @@
 }
 
 .btn-secondary {
-  margin-top: 1rem;
+  margin-top: auto;
+  margin-bottom: 0.5rem;
   padding: 0.8rem 1.5rem;
   font-size: 0.9rem;
 }

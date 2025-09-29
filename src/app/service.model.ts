@@ -4,6 +4,7 @@ export interface Service {
   imageUrl?: string;
   duration?: string;
   price?: string;
+  notes?: string; // Optional note to display with an asterisk at the bottom of the card
 }
 
 export interface ServiceCategory {

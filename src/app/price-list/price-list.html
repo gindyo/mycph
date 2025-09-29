@@ -17,9 +17,16 @@
             <div class="service-price">
               <p>{{ service.price }}</p>
             </div>
+            <a href="https://www.fresha.com/da/book-now/my-nails-ivs-segd4iga/all-offer?share=true&pId=61335" target="_blank" class="btn-primary book-now-btn">Book Now</a>
+            @if (service.notes) {
+              <div class="service-notes">
+                * {{ service.notes }}
+              </div>
+            }
           </div>
         }
       </div>
     </div>
   }
+  
 </div>

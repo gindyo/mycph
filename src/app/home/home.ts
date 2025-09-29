@@ -21,4 +21,13 @@ export class HomeComponent {
   getCategoryFragment(category: string): string {
     return getCategoryFragment(category);
   }
+
+  hasNotes(category: ServiceCategory): boolean {
+    return category.services.some(service => !!service.notes);
+  }
+
+  getFirstNote(category: ServiceCategory): string | undefined {
+    const serviceWithNote = category.services.find(service => !!service.notes);
+    return serviceWithNote?.notes;
+  }
 }
