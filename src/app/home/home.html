@@ -9,7 +9,7 @@
     <div class="service-grid">
       @for (category of serviceCategories; track category.category) {
         <div class="service-card">
-          <h3>{{ category.category }}</h3>
+          <h3>{{ 'CATEGORIES.' + category.category | translate }}</h3>
           <p>
             @for (service of category.services; track service.name) {
               <span>{{ service.name | translate }}</span>

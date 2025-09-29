@@ -6,6 +6,21 @@
   },
   "PRICE_LIST": {
     "TITLE": "Price List"
+  },
+  "NAV": {
+    "HOME": "Home",
+    "PRICE_LIST": "Price List",
+    "BOOK_NOW": "Book Now"
+  },
+  "CATEGORIES": {
+    "Featured": "Featured",
+    "Manicure": "Manicure",
+    "Brows and Lashes": "Brows and Lashes",
+    "Combo treatment": "Combo treatment",
+    "Reinforcement": "Reinforcement",
+    "Combi hands and feet": "Combi hands and feet",
+    "Pedicure": "Pedicure",
+    "Kids": "Kids"
   }
   ,
   "SERVICES": {

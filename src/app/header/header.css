@@ -1,3 +1,23 @@
+/* Inline language switcher styles */
+.lang-switcher-inline {
+  display: inline-block;
+  margin-left: 1.5rem;
+}
+.lang-switcher-inline button {
+  margin-left: 0.3rem;
+  padding: 0.3rem 0.7rem;
+  font-size: 0.95rem;
+  border-radius: 4px;
+  border: 1px solid var(--primary-color);
+  background: transparent;
+  color: var(--dark-text-color);
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.lang-switcher-inline button:hover {
+  background: var(--primary-color);
+  color: #fff;
+}
 .header {
   background-color: var(--dark-background-color);
   padding: 2rem;

@@ -6,6 +6,21 @@
   },
   "PRICE_LIST": {
     "TITLE": "Prisliste"
+  },
+  "NAV": {
+    "HOME": "Forside",
+    "PRICE_LIST": "Prisliste",
+    "BOOK_NOW": "Book tid"
+  },
+  "CATEGORIES": {
+    "Featured": "Fremhævet",
+    "Manicure": "Manicure",
+    "Brows and Lashes": "Bryn og vipper",
+    "Combo treatment": "Kombinationsbehandling",
+    "Reinforcement": "Forstærkning",
+    "Combi hands and feet": "Kombi hænder og fødder",
+    "Pedicure": "Pedicure",
+    "Kids": "Børn"
   }
   ,
   "SERVICES": {
