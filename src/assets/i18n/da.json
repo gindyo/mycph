@@ -1,0 +1,92 @@
+{
+  "HOME": {
+    "TITLE": "Vores ydelser",
+    "BOOK_NOW": "Book tid",
+    "VIEW_DETAILS": "Se detaljer"
+  },
+  "PRICE_LIST": {
+    "TITLE": "Prisliste"
+  }
+  ,
+  "SERVICES": {
+    "FEATURED": {
+      "NAME1": "Fjern Gellac+Signatur tør Manicure+Ny Gellac",
+      "DESC1": "Fjernelse af gammel gellac efterfulgt af signatur tør manicure og ny gellac farve",
+      "NAME2": "Forstærkning af naturlige negle kort 3mm/ Forstærkning af egne negle med gel",
+      "DESC2": "Styrkelse af de naturlige negle med gel",
+      "NAME3": "Fjern Gellac+Mini Pedicure+Ny Gellac",
+      "DESC3": "Fjernelse af gammel gellac efterfulgt af mini pedicure og påføring af ny gellac farve",
+      "NAME4": "Fjern Gellac+Signatur tør Pedicure+Ny Gellac",
+      "DESC4": "Fjernelse af gammel gellac efterfulgt af signatur tør pedicure og ny gellac farve",
+      "NAME5": "Mini pedicure (kun tæer)",
+      "DESC5": "Rensning af fødderne med desinfektionsmiddel, fjernelse af neglebånd, klipning og formning af neglene samt påføring af neglelak, afsluttes med negleolie",
+      "NAME6": "Signatur tør pedicure",
+      "DESC6": "Desinficer fødderne med alkoholopløsning, fjernelse af neglebånd og rensning af neglene, klipning og formning af neglene, fjernelse af hård hud fra hælene og påføring af neglelak, afsluttes med fodcreme og massage"
+    },
+    "MANICURE": {
+      "NAME1": "Herre manicure",
+      "DESC1": "Signatur tør manicure Klipning af neglene, formning, fjernelse af neglebånd med elektrisk neglemaskine.",
+      "NAME2": "Signatur tør manicure",
+      "DESC2": "Klipning af neglene, formning, fjernelse af neglebånd med elektrisk neglemaskine, polering af overfladen eller påføring af neglelak, afsluttes med creme og håndmassage",
+      "NAME3": "Fjern gellac",
+      "DESC3": "",
+      "NAME4": "1 SOS negl /Reparation af knækket negl",
+      "DESC4": ""
+    },
+    "BROWS": {
+      "NAME1": "Lash lift",
+      "DESC1": "Løft og buk af de naturlige øjenvipper med permanentvæske, inkl. farve",
+      "NAME2": "Farvning af vipper",
+      "DESC2": "Farvning af vipper for et mere markeret udseende",
+      "NAME3": "Brow lamination",
+      "DESC3": "Brow lamination med Inlei produkter og formkorrektion",
+      "NAME4": "Brow korrektion",
+      "DESC4": "Brow korrektion med voks og pincet"
+    },
+    "COMBO": {
+      "NAME1": "Bryn og vippefarve",
+      "DESC1": "Farvning af bryn og vipper",
+      "NAME2": "Brow lamination +lash lift",
+      "DESC2": "Kombineret brow lamination og lash lift inkl. korrektion og farve",
+      "NAME3": "Fjern Gellac+Signatur tør Manicure+Ny Gellac",
+      "DESC3": "Fjernelse af gammel gellac efterfulgt af signatur tør manicure og ny gellac farve",
+      "NAME4": "Fjern Gellac+Signatur tør Pedicure+Ny Gellac",
+      "DESC4": "Fjernelse af gammel gellac efterfulgt af signatur tør pedicure og ny gellac farve",
+      "NAME5": "Fjern Gellac+Mini Pedicure+Ny Gellac",
+      "DESC5": "Fjernelse af gammel gellac efterfulgt af mini pedicure og påføring af ny gellac farve"
+    },
+    "REINFORCEMENT": {
+      "NAME1": "Forstærkning af naturlige negle kort 3mm / Forstærkning af egne negle med gel",
+      "DESC1": "Styrkelse af de naturlige negle med gel",
+      "NAME2": "Forstærkning af naturlige negle op til 6mm tip",
+      "DESC2": "",
+      "NAME3": "Forstærkning af naturlige negle 6mm og opad",
+      "DESC3": "",
+      "NAME4": "Fjernelse af gel eller gel extensions",
+      "DESC4": "Fjernelse af gammel produkt og en lille manicure"
+    },
+    "COMBI": {
+      "NAME1": "Signatur tør mani + pedi",
+      "DESC1": "Signatur tør manicure og tør pedicure",
+      "NAME2": "Signatur tør Manicure og Pedicure +gellac/shellac",
+      "DESC2": "Kombineret signatur tør manicure og pedicure samt gel lakering"
+    },
+    "PEDICURE": {
+      "NAME1": "Mini pedicure (kun tæer)",
+      "DESC1": "Rensning af fødderne med desinfektionsmiddel, fjernelse af neglebånd, klipning og formning af neglene samt påføring af neglelak, afsluttes med negleolie",
+      "NAME2": "Signatur tør pedicure",
+      "DESC2": "Desinficer fødderne med alkoholopløsning, fjernelse af neglebånd og rensning af neglene, klipning og formning af neglene, fjernelse af hård hud fra hælene og påføring af neglelak, afsluttes med fodcreme og massage",
+      "NAME3": "SPA Pedicure",
+      "DESC3": "Signatur tør Pedicure, Desinficer fødderne med alkoholopløsning, fjernelse af neglebånd og rensning af neglene, klipning og formning af neglene, fjernelse af hård hud fra hælene og påføring af neglelak, afsluttes med fodcreme og massage",
+      "NAME4": "Fjern gel polish",
+      "DESC4": "",
+      "NAME5": "1 SOS gel negl",
+      "DESC5": ""
+    },
+    "KIDS": {
+      "NAME1": "Børne manicure/Børne manicure med neglelak",
+      "DESC1": "",
+      "NOTES1": "Vi laver ikke shellac eller gel på børn under 16 år!!!"
+    }
+  }
+}

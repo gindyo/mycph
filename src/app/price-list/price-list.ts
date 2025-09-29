@@ -1,4 +1,5 @@
 import { ChangeDetectionStrategy, Component, AfterViewInit } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
 import { ActivatedRoute } from '@angular/router';
 import { ViewportScroller } from '@angular/common';
 import { getCategoryFragment } from '../get-category-fragment.util';
@@ -10,6 +11,7 @@ import { serviceCategories } from '../service-categories.data';
   templateUrl: './price-list.html',
   styleUrls: ['./price-list.css'],
   changeDetection: ChangeDetectionStrategy.OnPush,
+  imports: [TranslateModule],
 })
 export class PriceListComponent implements AfterViewInit {
   readonly serviceCategories: ServiceCategory[] = serviceCategories;

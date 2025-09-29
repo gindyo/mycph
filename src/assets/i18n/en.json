@@ -1,0 +1,92 @@
+{
+  "HOME": {
+    "TITLE": "Our Services",
+    "BOOK_NOW": "Book Now",
+    "VIEW_DETAILS": "View Details"
+  },
+  "PRICE_LIST": {
+    "TITLE": "Price List"
+  }
+  ,
+  "SERVICES": {
+    "FEATURED": {
+      "NAME1": "Remove Gellac+Signature dry Manicure+New Gellac",
+      "DESC1": "Removing the old gellac followed by signature dry manicure and new gellac colour",
+      "NAME2": "Reinforcement of natural nails short 3mm/ Reinforcement of own nails with gel",
+      "DESC2": "Strengthening of the natural nails with gel",
+      "NAME3": "Remove Gellac+Mini Pedicure+New Gellac",
+      "DESC3": "Removing the old gellac color followed by mini pedicure and applying new gellac colour",
+      "NAME4": "Remove Gellac+Signature dry Pedicure+New Gellac",
+      "DESC4": "Removing the old gellac followed by signature dry pedicure and new gellac colour",
+      "NAME5": "Mini pedicure (toes only)",
+      "DESC5": "Cleaning the feet with disinfectant, removing the cuticles, cutting the nails, shaping the nails and applying nail polish, finishing with cuticle oil",
+      "NAME6": "Signature dry pedicure",
+      "DESC6": "Disinfect the feet with alcohol solution, removing the cuticles and clean the nails from the ptherigium, cutting the nails, shaping the nails, removing the calluses from the heels and applying nail polish, finishing with foot cream and massage"
+    },
+    "MANICURE": {
+      "NAME1": "Men's manicure",
+      "DESC1": "Signature dry manicure Cutting the nails, shaping, removing the cuticles by electric nail machine.",
+      "NAME2": "Signature dry manicure",
+      "DESC2": "Cutting the nails, shaping, removing the cuticles by electric nail machine, polishing the surface of the nails by file or applying nail polish, finishing with cream and hand massage",
+      "NAME3": "Remove gellac/Removing gellac",
+      "DESC3": "",
+      "NAME4": "1 SOS nail /Repair broken nail",
+      "DESC4": ""
+    },
+    "BROWS": {
+      "NAME1": "Lash lift",
+      "DESC1": "Lifting and curving the natural eyelashes by using perm solution, incl tint",
+      "NAME2": "Lash tinting",
+      "DESC2": "Coloring the eyelashes for a more defined look of your eyes",
+      "NAME3": "Brow lamination",
+      "DESC3": "Brow lamination by using Inlei brow lamination products and correction of the shape",
+      "NAME4": "Brow correction",
+      "DESC4": "Brow correcting by wax and tweezers"
+    },
+    "COMBO": {
+      "NAME1": "Brow and lash tint",
+      "DESC1": "Coloring the eyebrows and lashes",
+      "NAME2": "Brow lamination +lash lift",
+      "DESC2": "Combo Brow lamination and Lash lift procedure including brow correction and tint",
+      "NAME3": "Remove Gellac+Signature dry Manicure+New Gellac",
+      "DESC3": "Removing the old gellac followed by signature dry manicure and new gellac colour",
+      "NAME4": "Remove Gellac+Signature dry Pedicure+New Gellac",
+      "DESC4": "Removing the old gellac followed by signature dry pedicure and new gellac colour",
+      "NAME5": "Remove Gellac+Mini Pedicure+New Gellac",
+      "DESC5": "Removing the old gellac color followed by mini pedicure and applying new gellac colour"
+    },
+    "REINFORCEMENT": {
+      "NAME1": "Reinforcement of natural nails short 3mm / Reinforcement of own nails with gel",
+      "DESC1": "Strengthening of the natural nails with gel",
+      "NAME2": "Reinforcement of natural nails up to 6mm tip",
+      "DESC2": "",
+      "NAME3": "Reinforcement of natural nails 6mm and up length of the tip",
+      "DESC3": "",
+      "NAME4": "Remove of gel or gel extensions nails",
+      "DESC4": "Removing the old product and a small manicure"
+    },
+    "COMBI": {
+      "NAME1": "Signature dry mani + pedi",
+      "DESC1": "Signature dry manicure and dry pedicure",
+      "NAME2": "Signature dry Manicure and Pedicure +gellac/shellac",
+      "DESC2": "Combo Signature dry Manicure and pedicure and gel lacquer colouring"
+    },
+    "PEDICURE": {
+      "NAME1": "Mini pedicure (toes only)",
+      "DESC1": "Cleaning the feet with disinfectant, removing the cuticles, cutting the nails, shaping the nails and applying nail polish, finishing with cuticle oil",
+      "NAME2": "Signature dry pedicure",
+      "DESC2": "Disinfect the feet with alcohol solution, removing the cuticles and clean the nails from the ptherigium, cutting the nails, shaping the nails, removing the calluses from the heels and applying nail polish, finishing with foot cream and massage",
+      "NAME3": "SPA Pedicure",
+      "DESC3": "Signature dry Pedicure, Disinfect the feet with alcohol solution, removing the cuticles and clean the nails from the ptherigium, cutting the nails, shaping the nails, removing the calluses from the heels and applying nail polish, finishing with foot cream and massage",
+      "NAME4": "Remove gel polish",
+      "DESC4": "",
+      "NAME5": "1 SOS gel nail",
+      "DESC5": ""
+    },
+    "KIDS": {
+      "NAME1": "Children's Manicure/Kids manicure with nail polish",
+      "DESC1": "",
+      "NOTES1": "We don't do shellac or gel on kids under 16 years!!!"
+    }
+  }
+}

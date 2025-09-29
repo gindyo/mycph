@@ -1,6 +1,10 @@
 <header class="header">
   <div class="header-content">
     <h1>My Nails CPH</h1>
+    <div class="lang-switcher">
+      <button (click)="switchLang('en')">EN</button>
+      <button (click)="switchLang('da')">DA</button>
+    </div>
     <!-- Hamburger Icon for Mobile -->
     <button class="hamburger" (click)="toggleMenu()" aria-label="Open menu">
       <span></span>
