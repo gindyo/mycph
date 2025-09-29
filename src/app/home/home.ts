@@ -1,11 +1,10 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { TranslateService } from '@ngx-translate/core';
 import { RouterModule } from '@angular/router';
-import { TranslateModule } from '@ngx-translate/core';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { ServiceCategory } from '../service.model';
 import { getCategoryFragment } from '../get-category-fragment.util';
 import { serviceCategories } from '../service-categories.data';
-import { galleryImages, GalleryImage } from './gallery.data';
+import { GalleryImage, galleryImages } from './gallery.data';
 
 @Component({
   selector: 'app-home',
@@ -20,12 +19,7 @@ export class HomeComponent {
   carouselIndex = 0;
   lightboxImage: GalleryImage | null = null;
 
-  constructor(public translate: TranslateService) {
-    translate.addLangs(['en', 'da']);
-    translate.setDefaultLang('en');
-    const browserLang = translate.getBrowserLang() || 'en';
-    translate.use(browserLang.match(/en|da/) ? browserLang : 'en');
-  }
+  constructor(public translate: TranslateService) {}
 
   switchLang(lang: string) {
     this.translate.use(lang);

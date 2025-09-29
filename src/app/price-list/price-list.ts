@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, AfterViewInit } from '@angular/core';
-import { TranslateModule } from '@ngx-translate/core';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { ActivatedRoute } from '@angular/router';
 import { ViewportScroller } from '@angular/common';
 import { getCategoryFragment } from '../get-category-fragment.util';
@@ -19,7 +19,7 @@ export class PriceListComponent implements AfterViewInit {
     return getCategoryFragment(category);
   }
 
-  constructor(private route: ActivatedRoute, private viewportScroller: ViewportScroller) {}
+  constructor(private route: ActivatedRoute, private viewportScroller: ViewportScroller, public translate: TranslateService) {}
 
   ngAfterViewInit(): void {
     this.route.fragment.subscribe(fragment => {
