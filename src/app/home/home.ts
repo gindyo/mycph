@@ -5,6 +5,7 @@ import { TranslateModule } from '@ngx-translate/core';
 import { ServiceCategory } from '../service.model';
 import { getCategoryFragment } from '../get-category-fragment.util';
 import { serviceCategories } from '../service-categories.data';
+import { galleryImages, GalleryImage } from './gallery.data';
 
 @Component({
   selector: 'app-home',
@@ -15,6 +16,9 @@ import { serviceCategories } from '../service-categories.data';
 })
 export class HomeComponent {
   protected readonly serviceCategories = serviceCategories;
+  protected readonly galleryImages: GalleryImage[] = galleryImages;
+  carouselIndex = 0;
+  lightboxImage: GalleryImage | null = null;
 
   constructor(public translate: TranslateService) {
     translate.addLangs(['en', 'da']);
@@ -49,4 +53,29 @@ export class HomeComponent {
     return services[services.length - 1] === service;
   }
 
+  get carouselWindow(): GalleryImage[] {
+    // Always show 3 images, centered on carouselIndex if possible
+    const start = Math.max(0, Math.min(this.carouselIndex - 1, this.galleryImages.length - 3));
+    return this.galleryImages.slice(start, start + 3);
+  }
+
+  prevImage() {
+    if (this.carouselIndex > 0) {
+      this.carouselIndex--;
     }
+  }
+
+  nextImage() {
+    if (this.carouselIndex < this.galleryImages.length - 1) {
+      this.carouselIndex++;
+    }
+  }
+
+  openLightbox(img: GalleryImage) {
+    this.lightboxImage = img;
+  }
+
+  closeLightbox() {
+    this.lightboxImage = null;
+  }
+}

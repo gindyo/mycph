@@ -25,6 +25,28 @@
         </div>
       }
     </div>
+    <!-- Image Gallery Carousel -->
+    <section class="gallery">
+      <h2>Gallery</h2>
+      <div class="carousel">
+        <div class="carousel-image-wrapper multi">
+          <button class="carousel-btn prev" (click)="prevImage()" [disabled]="carouselIndex === 0">&#8592;</button>
+          @for (img of carouselWindow; track img.src) {
+            <img class="carousel-image" [src]="img.src" [alt]="img.alt" (click)="openLightbox(img)" style="cursor:pointer;" />
+          }
+          <div class="carousel-counter">{{ carouselIndex + 1 }} / {{ galleryImages.length }}</div>
+          <button class="carousel-btn next" (click)="nextImage()" [disabled]="carouselIndex >= galleryImages.length - 1">&#8594;</button>
+        </div>
+      </div>
+
+      <!-- Lightbox Overlay -->
+      @if (lightboxImage) {
+        <div class="lightbox-overlay" (click)="closeLightbox()">
+          <img class="lightbox-img" [src]="lightboxImage.src" [alt]="lightboxImage.alt" (click)="$event.stopPropagation()" />
+          <button class="lightbox-close" (click)="closeLightbox(); $event.stopPropagation()">&times;</button>
+        </div>
+      }
+    </section>
     <a href="https://www.fresha.com/da/book-now/my-nails-ivs-segd4iga/all-offer?share=true&pId=61335" target="_blank" class="btn-primary">{{ 'HOME.BOOK_NOW' | translate }}</a>
 
     <div class="map-container" style="margin-top:2rem;">
