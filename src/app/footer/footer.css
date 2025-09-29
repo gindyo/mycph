@@ -1,0 +1,22 @@
+.footer {
+  background-color: var(--dark-background-color);
+  color: var(--dark-text-color);
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.social-media a {
+  color: var(--dark-text-color);
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
+
+.social-media a:hover {
+  color: var(--secondary-color);
+}

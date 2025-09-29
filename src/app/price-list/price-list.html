@@ -1,0 +1,25 @@
+<div class="price-list-container">
+  <h2>Price List</h2>
+
+  @for (category of serviceCategories; track category.category) {
+    <div class="category-container">
+      <h3>{{ category.category }}</h3>
+      <div class="service-cards">
+        @for (service of category.services; track service.name) {
+          <div class="service-card">
+            <div class="service-details">
+              <h4>{{ service.name }}</h4>
+              <p class="duration">{{ service.duration }}</p>
+              @if (service.description) {
+                <p class="description">{{ service.description }}</p>
+              }
+            </div>
+            <div class="service-price">
+              <p>{{ service.price }}</p>
+            </div>
+          </div>
+        }
+      </div>
+    </div>
+  }
+</div>

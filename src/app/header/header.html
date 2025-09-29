@@ -1,0 +1,17 @@
+<header class="header">
+  <div class="header-content">
+    <h1>My Nails CPH</h1>
+    <!-- Hamburger Icon for Mobile -->
+    <button class="hamburger" (click)="toggleMenu()" aria-label="Open menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <!-- Navigation Menu -->
+    <nav [class.open]="menuOpen">
+      <a [routerLink]="['/']" (click)="logClick('Home'); closeMenu()">Home</a>
+      <a routerLink="/price-list" (click)="logClick('Price List'); closeMenu()">Price List</a>
+      <a href="https://www.fresha.com/da/book-now/my-nails-ivs-segd4iga/all-offer?share=true&pId=61335" target="_blank" (click)="closeMenu()">Book Now</a>
+    </nav>
+  </div>
+</header>
