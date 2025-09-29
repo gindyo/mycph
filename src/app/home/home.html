@@ -11,7 +11,7 @@
         <div class="service-card">
           <h3>{{ category.category }}</h3>
           <p>{{ getCategoryDescription(category) }}</p>
-          <a routerLink="/price-list" class="btn-secondary">View Details</a>
+          <a [routerLink]="['/price-list']" [fragment]="getCategoryFragment(category.category)" class="btn-secondary">View Details</a>
         </div>
       }
     </div>

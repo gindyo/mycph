@@ -2,7 +2,7 @@
   <h2>Price List</h2>
 
   @for (category of serviceCategories; track category.category) {
-    <div class="category-container">
+    <div class="category-container" [attr.id]="getCategoryFragment(category.category)">
       <h3>{{ category.category }}</h3>
       <div class="service-cards">
         @for (service of category.services; track service.name) {
