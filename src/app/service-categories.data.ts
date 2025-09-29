@@ -110,12 +110,12 @@ export const serviceCategories: ServiceCategory[] = [
     ],
   },
   {
-    category: 'Rules',
+    category: 'Kids manicure with nail polish',
     services: [
       {
-        name: "Children's Manicure/Kids manicure with nail polish",
+        name: 'Kids manicure with nail polish',
         duration: '30 minutes',
-        description: "We don't do shellac or gel on kids under 16 years!!!",
+        description: "Important: We don't do shellac or gel on kids under 16 years!!!",
         price: '280 kr.',
       },
     ],
