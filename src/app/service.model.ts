@@ -9,5 +9,6 @@ export interface Service {
 
 export interface ServiceCategory {
   category: string;
+  description: string;
   services: Service[];
 }

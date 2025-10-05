@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { TranslateService, TranslateModule } from '@ngx-translate/core';
@@ -7,11 +8,10 @@ import { TranslateService, TranslateModule } from '@ngx-translate/core';
   templateUrl: './header.html',
   styleUrls: ['./header.css'],
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [RouterModule, TranslateModule],
+  imports: [RouterModule, TranslateModule, CommonModule],
 })
 export class HeaderComponent {
   menuOpen = false;
-
   constructor(public translate: TranslateService) {}
 
   switchLang(lang: string) {

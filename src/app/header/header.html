@@ -1,22 +1,71 @@
 <header class="header">
-  <div class="header-content">
-    <h1>My Nails CPH</h1>
-    <!-- Hamburger Icon for Mobile -->
-    <!-- Hamburger Icon for Mobile -->
-    <button class="hamburger" (click)="toggleMenu()" aria-label="Open menu">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-    <!-- Navigation Menu -->
-    <nav [class.open]="menuOpen">
-  <a [routerLink]="['/']" (click)="logClick('Home'); closeMenu()">{{ 'NAV.HOME' | translate }}</a>
-  <a routerLink="/price-list" (click)="logClick('Price List'); closeMenu()">{{ 'NAV.PRICE_LIST' | translate }}</a>
-  <a href="https://www.fresha.com/da/book-now/my-nails-ivs-segd4iga/all-offer?share=true&pId=61335" target="_blank" (click)="closeMenu()">{{ 'NAV.BOOK_NOW' | translate }}</a>
-      <span class="lang-switcher-inline">
-        <button (click)="switchLang('en')">EN</button>
-        <button (click)="switchLang('da')">DA</button>
+  <div class="header-main">
+    <div class="header-content">
+      <div class="logo">
+        <h1>MY NAILS CPH</h1>
+      </div>
+      <button 
+        class="menu-toggle" 
+        (click)="toggleMenu()"
+        [attr.aria-label]="menuOpen ? 'Close menu' : 'Open menu'"
+        [attr.aria-expanded]="menuOpen">
+        <svg 
+          *ngIf="!menuOpen" 
+          width="26" 
+          height="26" 
+          viewBox="0 0 24 24" 
+          fill="none" 
+          stroke="currentColor" 
+          stroke-width="2">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+        <svg 
+          *ngIf="menuOpen" 
+          width="26" 
+          height="26" 
+          viewBox="0 0 24 24" 
+          fill="none" 
+          stroke="currentColor" 
+          stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    <div class="contact-info">
+      <a href="tel:+4552307304" class="contact-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+        </svg>
+        <span>+45 52 30 73 04</span>
+      </a>
+      <a href="mailto:mynailscph@gmail.com" class="contact-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+          <polyline points="22,6 12,13 2,6"></polyline>
+        </svg>
+        <span>mynailscph@gmail.com</span>
+      </a>
+      <span class="header-social-inline">
+        <a href="https://www.instagram.com/my_nails_cph/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/@mynailscph/videos?app=desktop&view=0&sort=dd&shelf_id=2" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
       </span>
-    </nav>
+    </div>
   </div>
+  
+  <nav class="nav-menu" [class.open]="menuOpen">
+    <a routerLink="/" class="nav-link" (click)="closeMenu()">HOME</a>
+    <a routerLink="/price-list" class="nav-link" (click)="closeMenu()">PRICE LIST</a>
+    <a href="https://www.fresha.com/da/book-now/my-nails-ivs-segd4iga/all-offer?share=true&pId=61335" target="_blank" class="nav-link" (click)="closeMenu()">BOOK NOW</a>
+    <div class="language-selector">
+      <button class="lang-btn" (click)="switchLang('en')">
+        <img src="/assets/en.svg" alt="English" width="28" height="20" />
+      </button>
+      <button class="lang-btn" (click)="switchLang('da')">
+        <img src="/assets/dk.svg" alt="Dansk" width="28" height="20" />
+      </button>
+    </div>
+  </nav>
 </header>

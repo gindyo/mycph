@@ -20,3 +20,28 @@
 .social-media a:hover {
   color: var(--secondary-color);
 }
+
+.footer-contact {
+  margin-top: 0.7rem;
+  font-size: 1.1rem;
+  color: var(--dark-text-color);
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.footer-contact span {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.footer-contact a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.footer-contact a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}

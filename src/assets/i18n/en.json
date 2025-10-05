@@ -13,32 +13,15 @@
     "BOOK_NOW": "Book Now"
   },
   "CATEGORIES": {
-    "Featured": "Featured",
     "Manicure": "Manicure",
     "Brows and Lashes": "Brows and Lashes",
-    "Combo treatment": "Combo treatment",
     "Reinforcement": "Reinforcement",
-    "Combi hands and feet": "Combi hands and feet",
-    "Pedicure": "Pedicure",
-    "Kids": "Kids"
+    "Pedicure": "Pedicure"
   }
   ,
   "SERVICES": {
-    "FEATURED": {
-      "NAME1": "Remove Gellac+Signature dry Manicure+New Gellac",
-      "DESC1": "Removing the old gellac followed by signature dry manicure and new gellac colour",
-      "NAME2": "Reinforcement of natural nails short 3mm/ Reinforcement of own nails with gel",
-      "DESC2": "Strengthening of the natural nails with gel",
-      "NAME3": "Remove Gellac+Mini Pedicure+New Gellac",
-      "DESC3": "Removing the old gellac color followed by mini pedicure and applying new gellac colour",
-      "NAME4": "Remove Gellac+Signature dry Pedicure+New Gellac",
-      "DESC4": "Removing the old gellac followed by signature dry pedicure and new gellac colour",
-      "NAME5": "Mini pedicure (toes only)",
-      "DESC5": "Cleaning the feet with disinfectant, removing the cuticles, cutting the nails, shaping the nails and applying nail polish, finishing with cuticle oil",
-      "NAME6": "Signature dry pedicure",
-      "DESC6": "Disinfect the feet with alcohol solution, removing the cuticles and clean the nails from the ptherigium, cutting the nails, shaping the nails, removing the calluses from the heels and applying nail polish, finishing with foot cream and massage"
-    },
     "MANICURE": {
+      "CATDESC":"A dry manicure is a gentle and modern technique that doesn’t use water. Instead, a special electric machine with fine tips carefully removes cuticles and cleans around the nails. This creates a smooth, neat, and long-lasting base for gel polish or extensions, while keeping the nails healthy and well-groomed.",
       "NAME1": "Men's manicure",
       "DESC1": "Signature dry manicure Cutting the nails, shaping, removing the cuticles by electric nail machine.",
       "NAME2": "Signature dry manicure",
@@ -49,6 +32,7 @@
       "DESC4": ""
     },
     "BROWS": {
+      "CATDESC":"Brow lamination is a beauty treatment that shapes and sets the brows by lifting the hairs in the desired direction. It creates fuller, well-defined brows with a smooth and polished look. Lash lifting is a natural alternative to extensions that curls and lifts your own lashes from the root. It makes the lashes look longer, darker, and more open, enhancing your eyes without extra maintenance.",
       "NAME1": "Lash lift",
       "DESC1": "Lifting and curving the natural eyelashes by using perm solution, incl tint",
       "NAME2": "Lash tinting",
@@ -58,19 +42,8 @@
       "NAME4": "Brow correction",
       "DESC4": "Brow correcting by wax and tweezers"
     },
-    "COMBO": {
-      "NAME1": "Brow and lash tint",
-      "DESC1": "Coloring the eyebrows and lashes",
-      "NAME2": "Brow lamination +lash lift",
-      "DESC2": "Combo Brow lamination and Lash lift procedure including brow correction and tint",
-      "NAME3": "Remove Gellac+Signature dry Manicure+New Gellac",
-      "DESC3": "Removing the old gellac followed by signature dry manicure and new gellac colour",
-      "NAME4": "Remove Gellac+Signature dry Pedicure+New Gellac",
-      "DESC4": "Removing the old gellac followed by signature dry pedicure and new gellac colour",
-      "NAME5": "Remove Gellac+Mini Pedicure+New Gellac",
-      "DESC5": "Removing the old gellac color followed by mini pedicure and applying new gellac colour"
-    },
     "REINFORCEMENT": {
+      "CATDESC":"Reinforcement of natural nails with builder gel is a treatment that strengthens your own nails without extensions. A thin layer of builder gel is applied to protect, add durability, and prevent breakage, while still keeping the nails natural-looking, smooth, and ready for polish.",
       "NAME1": "Reinforcement of natural nails short 3mm / Reinforcement of own nails with gel",
       "DESC1": "Strengthening of the natural nails with gel",
       "NAME2": "Reinforcement of natural nails up to 6mm tip",
@@ -80,13 +53,8 @@
       "NAME4": "Remove of gel or gel extensions nails",
       "DESC4": "Removing the old product and a small manicure"
     },
-    "COMBI": {
-      "NAME1": "Signature dry mani + pedi",
-      "DESC1": "Signature dry manicure and dry pedicure",
-      "NAME2": "Signature dry Manicure and Pedicure +gellac/shellac",
-      "DESC2": "Combo Signature dry Manicure and pedicure and gel lacquer colouring"
-    },
     "PEDICURE": {
+      "CATDESC":"A dry pedicure is a waterless treatment done with an electric machine. Using special tips, it gently removes cuticles, calluses, and dead skin, leaving feet smooth, clean, and perfectly prepared for polish or gel application.",
       "NAME1": "Mini pedicure (toes only)",
       "DESC1": "Cleaning the feet with disinfectant, removing the cuticles, cutting the nails, shaping the nails and applying nail polish, finishing with cuticle oil",
       "NAME2": "Signature dry pedicure",
@@ -97,11 +65,7 @@
       "DESC4": "",
       "NAME5": "1 SOS gel nail",
       "DESC5": ""
-    },
-    "KIDS": {
-      "NAME1": "Children's Manicure/Kids manicure with nail polish",
-      "DESC1": "",
-      "NOTES1": "We don't do shellac or gel on kids under 16 years!!!"
     }
   }
 }
+

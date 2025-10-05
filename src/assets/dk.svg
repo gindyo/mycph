@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 30" width="300" height="150" aria-label="Flag of Denmark (1:2 canvas, white padded)">
+  <rect width="60" height="30" fill="#ffffff"/>
+  <g transform="translate(10.1785714286,0) scale(1.0714285714)">
+    <rect width="37" height="28" fill="#C60C30"/>
+    <rect x="12" width="4" height="28" fill="#ffffff"/>
+    <rect y="12" width="37" height="4" fill="#ffffff"/>
+  </g>
+</svg>

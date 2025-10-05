@@ -2,29 +2,6 @@
   <div class="image-container">
     <img src="/assets/placeholder.png" alt="Nail Services">
   </div>
-</div>
-<section class="services">
-  <div class="container">
-    <h2>{{ 'HOME.TITLE' | translate }}</h2>
-    <div class="service-grid">
-      @for (category of serviceCategories; track category.category) {
-        <div class="service-card">
-          <h3>{{ 'CATEGORIES.' + category.category | translate }}</h3>
-          <p>
-            @for (service of category.services; track service.name) {
-              <span>{{ service.name | translate }}</span>
-              @if (!isLastService(category, service)) {<span>, </span>}
-            }
-          </p>
-          <a [routerLink]="['/price-list']" [fragment]="getCategoryFragment(category.category)" class="btn-secondary">{{ 'HOME.VIEW_DETAILS' | translate }}</a>
-          @if (hasNotes(category)) {
-            <div class="service-notes">
-              * {{ getFirstNote(category) | translate }}
-            </div>
-          }
-        </div>
-      }
-    </div>
     <!-- Image Gallery Carousel -->
     <section class="gallery">
       <h2>Gallery</h2>
@@ -47,6 +24,26 @@
         </div>
       }
     </section>
+</div>
+<section class="services">
+  <div class="container">
+    <h2>{{ 'HOME.TITLE' | translate }}</h2>
+    <div class="service-grid">
+      @for (category of serviceCategories; track category.category) {
+        <div class="service-card" style="border: 1px solid var(--primary-color);">
+          <h3>{{ 'CATEGORIES.' + category.category | translate }}</h3>
+          <p>
+            {{category.description | translate}}
+          </p>
+          <a [routerLink]="['/price-list']" [fragment]="getCategoryFragment(category.category)" class="btn-secondary">{{ 'HOME.VIEW_DETAILS' | translate }}</a>
+          @if (hasNotes(category)) {
+            <div class="service-notes">
+              * {{ getFirstNote(category) | translate }}
+            </div>
+          }
+        </div>
+      }
+    </div>
     <a href="https://www.fresha.com/da/book-now/my-nails-ivs-segd4iga/all-offer?share=true&pId=61335" target="_blank" class="btn-primary">{{ 'HOME.BOOK_NOW' | translate }}</a>
 
     <div class="map-container" style="margin-top:2rem;">
