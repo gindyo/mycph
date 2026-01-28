@@ -5,6 +5,7 @@ import { ServiceCategory } from '../service.model';
 import { getCategoryFragment } from '../get-category-fragment.util';
 import { serviceCategories } from '../service-categories.data';
 import { GalleryImage, galleryImages } from './gallery.data';
+import { AnalyticsService } from '../analytics.service';
 
 @Component({
   selector: 'app-home',
@@ -19,7 +20,7 @@ export class HomeComponent {
   carouselIndex = 0;
   lightboxImage: GalleryImage | null = null;
 
-  constructor(public translate: TranslateService) {}
+  constructor(public translate: TranslateService,  public analytics: AnalyticsService) {}
 
   switchLang(lang: string) {
     this.translate.use(lang);
@@ -71,5 +72,11 @@ export class HomeComponent {
 
   closeLightbox() {
     this.lightboxImage = null;
+  }
+
+  trackBookingClickWithTranslation(serviceName: string): void {
+    // Get the translated service name
+    const translatedName = this.translate.instant(serviceName);
+    this.analytics.trackBookingClick(translatedName);
   }
 }

@@ -1,0 +1,31 @@
+[debug] [2026-01-28T21:28:09.571Z] ----------------------------------------------------------------------
+[debug] [2026-01-28T21:28:09.576Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DGinev\Projects\mycph\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2026-01-28T21:28:09.577Z] CLI Version:   15.3.1
+[debug] [2026-01-28T21:28:09.577Z] Platform:      win32
+[debug] [2026-01-28T21:28:09.577Z] Node Version:  v24.12.0
+[debug] [2026-01-28T21:28:09.577Z] Time:          Wed Jan 28 2026 15:28:09 GMT-0600 (Central Standard Time)
+[debug] [2026-01-28T21:28:09.577Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-01-28T21:28:14.628Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-28T21:28:14.628Z] > authorizing via signed-in user (gindio@gmail.com)
+[debug] [2026-01-28T21:28:14.629Z] [iam] checking project mynailscph for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2026-01-28T21:28:14.630Z] Checked if tokens are valid: true, expires at: 1769638047324
+[debug] [2026-01-28T21:28:14.630Z] Checked if tokens are valid: true, expires at: 1769638047324
+[debug] [2026-01-28T21:28:14.631Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/mynailscph:testIamPermissions [none]
+[debug] [2026-01-28T21:28:14.631Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/mynailscph:testIamPermissions x-goog-quota-user=projects/mynailscph
+[debug] [2026-01-28T21:28:14.631Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/mynailscph:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2026-01-28T21:28:14.874Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/mynailscph:testIamPermissions 200
+[debug] [2026-01-28T21:28:14.874Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/mynailscph:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2026-01-28T21:28:14.875Z] Checked if tokens are valid: true, expires at: 1769638047324
+[debug] [2026-01-28T21:28:14.875Z] Checked if tokens are valid: true, expires at: 1769638047324
+[debug] [2026-01-28T21:28:14.875Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mynailscph [none]
+[debug] [2026-01-28T21:28:15.365Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/mynailscph 200
+[debug] [2026-01-28T21:28:15.365Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/mynailscph {"projectId":"mynailscph","projectNumber":"690423380115","displayName":"Mynails CPH","name":"projects/mynailscph","resources":{"hostingSite":"mynailscph"},"state":"ACTIVE","etag":"1_acf54d53-8343-40fa-a7d9-abcdb267eb4e"}
+[info] 
+[info] === Deploying to 'mynailscph'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2026-01-28T21:28:15.373Z] Checked if tokens are valid: true, expires at: 1769638047324
+[debug] [2026-01-28T21:28:15.373Z] Checked if tokens are valid: true, expires at: 1769638047324
+[debug] [2026-01-28T21:28:15.374Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/mynailscph/versions [none]
+[debug] [2026-01-28T21:28:15.374Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/mynailscph/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
